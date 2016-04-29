@@ -5,11 +5,7 @@
 
   <name>VPN_APP</name>
   <description>Check VPN, Open App and Data Device Plugin</description>
-  <gap:url-scheme name="com.ahmsa.com" role="Editor">
-      <scheme>pgbr</scheme>
-      <scheme>pgbw</scheme>
-  </gap:url-scheme>
-    
+  
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
