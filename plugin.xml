@@ -4,7 +4,7 @@
         version="0.7.0">
 
   <name>VPN_APP</name>
-  <description>Check VPN, Open App and Data Device Plugin</description>
+  <description>Check iOS Library</description>
   
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
@@ -39,11 +39,7 @@
     </config-file>
 
     <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
-    <header-file src="src/ios/SeedDataAPI.h" target-dir="libraries"/>
-    
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
-    <source-file src="src/ios/libssl.a" tarjet-dir="libraries">
-    <source-file src="src/ios/libAfariaSLL.a" tarjet-dir="libraries">
   </platform>
 
   <platform name="wp7">
