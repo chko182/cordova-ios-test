@@ -52,7 +52,7 @@
     </config-file>
 
     <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
-    <header-file src="src/ios/SeedDataAPI.h" target-dir="HelloPlugin"/>
+    <header-file src="src/ios/SeedDataAPI.h" target-dir="libraries"/>
     
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
     <source-file src="src/ios/libcrypto.a" tarjet-dir="libraries">
