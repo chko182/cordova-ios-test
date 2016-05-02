@@ -31,7 +31,14 @@
   </platform>
 
   <platform name="ios">
-    
+    <framework src="libz.dylib"/>
+    <framework src="libstdc++.dylib" />
+    <framework src="libsqlite3.dylib"/>
+    <framework src="Security.framework"/>
+    <framework src="MessageUI.framework"/>
+    <framework src="CFNetwork.framework"/>
+    <framework src="SystemConfiguration.framework"/>
+		
     <config-file target="config.xml" parent="/widget">
       <feature name="Hello">
         <param name="ios-package" value="HWPHello" />
