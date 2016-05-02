@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.ios.test7"
+        id="com.ios.test8"
         version="0.7.0">
 
   <name>VPN_APP</name>
@@ -31,14 +31,6 @@
   </platform>
 
   <platform name="ios">
-    <framework src="libz.dylib"/>
-    <framework src="libstdc++.dylib" />
-    <framework src="libsqlite3.dylib"/>
-    <framework src="Security.framework"/>
-    <framework src="MessageUI.framework"/>
-    <framework src="CFNetwork.framework"/>
-    <framework src="SystemConfiguration.framework"/>
-		
     <config-file target="config.xml" parent="/widget">
       <feature name="Hello">
         <param name="ios-package" value="HWPHello" />
