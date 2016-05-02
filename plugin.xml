@@ -41,8 +41,8 @@
     <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
     <header-file src="src/ios/SeedDataAPI.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
-    <source-file framework="true" src="ios/libs/libAfariaSLL.a"/>
-    <source-file framework="true" src="ios/libs/libssl.a"/>
+    <source-file framework="true" src="ios/libAfariaSLL.a"/>
+    <source-file framework="true" src="ios/libssl.a"/>
   </platform>
 
   <platform name="wp7">
