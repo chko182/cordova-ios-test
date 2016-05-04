@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.ios.test17"
+        id="com.ios.test18"
         version="0.7.8">
 
   <name>VPN_APP</name>
