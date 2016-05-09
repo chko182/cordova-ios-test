@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.ios.test19"
+        id="com.ios.test20"
         version="0.7.8">
 
   <name>VPN_APP</name>
@@ -42,7 +42,7 @@
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
     <source-file framework="true" src="src/ios/libssl.a"/>
     <source-file framework="true" src="src/ios/libcrypto.a"/>
-    <source-file framework="true" src="src/ios/libAfariaSLL.a"/>
+    
   </platform>
 
   <platform name="wp7">
